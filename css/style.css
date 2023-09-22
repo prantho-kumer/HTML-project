@@ -592,6 +592,7 @@ footer a:hover{
     right: 10px;
     top: 3px;
     font-size: 13px;
+    z-index: 9999;
 }
 
 .dropdown-submenu::before {
