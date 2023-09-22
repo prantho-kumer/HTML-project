@@ -220,6 +220,17 @@ li.selected a{
 
 .sub-close{
   display: none;
+     position: absolute;
+    right: 10px;
+    top: -21px;
+    font-size: 13px;
+    z-index: 9999;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid #0000002d;
+    text-align: center;
+    border-bottom: none;
 }
     .dropdown-menu li {
 position: relative;
@@ -584,15 +595,12 @@ footer a:hover{
   .dropdown-menu .dropdown-submenu {
     left: 0;
     top: 30px;
+    width: 100%;
 }
 
 .sub-close{
-  display: block;
-    position: absolute;
-    right: 10px;
-    top: 3px;
-    font-size: 13px;
-    z-index: 9999;
+      display: block;
+ 
 }
 
 .dropdown-submenu::before {
